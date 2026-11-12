@@ -1,6 +1,11 @@
 [gd_scene format=3 uid="uid://bd1kp2snd11y1"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=954801686]
+[ext_resource type="Script" uid="uid://cxeohu6krtxsf" path="res://Characters/character_body_2d.gd" id="1_1wu55"]
+
+[node name="Player" type="CharacterBody2D" unique_id=954801686]
+script = ExtResource("1_1wu55")
+accelaration = null
+max_speed = null
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=127227108]
 
